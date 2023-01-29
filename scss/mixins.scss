@@ -1,0 +1,43 @@
+@mixin blocksTitleStyles {
+    font-family: $secondary-font-family;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $main-text-color;
+    font-size: $size-of-titles;
+    font-weight: $main-font-weight;
+}
+
+@mixin productsTitleStyles {
+    font-family: $secondary-font-family;
+    font-size: $size-of-title-products;
+    color: $main-text-color;
+    line-height: 21px;
+    font-weight: $main-font-weight;
+}
+
+@mixin productPriceStyles {
+    font-family: $secondary-font-family;
+    font-size: $size-of-price-products;
+    color: $main-text-color;
+    line-height: 21px;
+    font-weight: $main-font-weight;
+}
+
+@mixin collectionBtnStyles {
+    font-family: $main-font-family;
+    font-size: $size-of-title-products;
+    color: $main-text-color;
+    font-weight: $main-font-weight;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+@mixin textDescStyles {
+    font-family: $main-font-family;
+    font-size: $size-main-footer-header;
+    font-weight: $main-font-weight;
+    line-height: 150%;
+    text-align: center;
+    color: $main-text-color;
+}
