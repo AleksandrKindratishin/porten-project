@@ -212,3 +212,126 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: 150%;
 }
+
+.collections {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.collections > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.collections > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.collections > *:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.collections > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.season-top {
+  background-color: #0F0F0F;
+}
+.season-top h2 {
+  font-family: Playfair Display;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 93px;
+}
+.season-top .seasons-top__line {
+  border: 1px solid #FFFFFF;
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.season-top .seasons-top__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.season-top img {
+  padding: 55px 22px;
+  background-color: #191B1C;
+  margin-bottom: 25px;
+}
+.season-top .card__title {
+  font-family: Playfair Display;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.season-top .card__price {
+  font-family: Playfair Display;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 21px;
+  font-weight: 400;
+  margin-bottom: 93px;
+}
+
+.new-coll-top {
+  background-image: url(../img/collections/man-top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.new-coll-top .new-coll-top__content {
+  width: 376px;
+  margin: 0 auto;
+  margin-top: 484px;
+}
+.new-coll-top .new-coll-top__content h2 {
+  font-family: Playfair Display;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.new-coll-top .new-coll-top__line {
+  border: 1px solid #FFFFFF;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+.new-coll-top .new-coll-top__button {
+  font-family: PT Sans;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 23px;
+  border: 1px solid #FFFFFF;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block;
+  max-width: 122px;
+}

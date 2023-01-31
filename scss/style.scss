@@ -127,3 +127,113 @@
                 }
         }
 }
+
+
+//===========collections=====================
+
+
+.collections {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    // grid-template-areas: 
+    // 'season top new-coll-top'
+    // 'collections__season-bottom new-coll-bottom';
+}
+
+// .season-top {
+//     grid-area: season-top;
+
+
+// }
+
+// .new-coll-top {
+//     grid-area: new-coll-top;
+// }
+
+// .collections__season-bottom {
+//     grid-area: collections__season-bottom;
+// }
+
+// .new-coll-bottom {
+//     grid-area: new-coll-bottom;
+// }
+
+
+.season-top {
+    background-color: $gb-color;
+
+        h2 {
+            @include blocksTitleStyles;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 93px;
+        }
+
+        .seasons-top__line {
+            border: 1px solid #FFFFFF;
+            width: 120px;
+            margin: 0 auto;
+            margin-bottom: 50px;        }
+
+        .seasons-top__cards {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        img {
+            padding: 55px 22px;
+            background-color: #191B1C;
+            margin-bottom: 25px;
+        }
+
+        .card__title {
+            @include productsTitleStyles;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .card__price {
+            @include productPriceStyles;
+            margin-bottom: 93px;
+        }
+}
+
+
+
+.new-coll-top {
+    background-image: url(../img/collections/man-top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    .new-coll-top__content {
+        width: 376px;
+        margin: 0 auto;
+        margin-top: 484px;
+        
+
+            h2 {
+                @include blocksTitleStyles;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+    }
+
+    .new-coll-top__line {
+        border: 1px solid #FFFFFF;
+        width: 120px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+
+    .new-coll-top__button {
+        @include collectionBtnStyles;
+        border: 1px solid #FFFFFF;
+        padding: 10px 20px;
+        margin: 0 auto;
+        display: block;
+        max-width: 122px;
+    }
+}
