@@ -165,6 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #1F1F1F;
 }
 .header__bottom .header__memu .menu__link {
+  font-family: PT Sans;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -179,4 +180,35 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.banner {
+  background-image: url(../img/banner/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.banner .banner__content {
+  width: 730px;
+  margin: 0 auto;
+}
+.banner .banner__content .banner__logo {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.banner .banner__content .banner__description {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: PT Sans;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 150%;
 }

@@ -75,6 +75,7 @@
                 }
 
                 .menu__link {
+                    font-family: $main-font-family;
                     font-weight: $main-font-weight;
                     font-size: $size-main-footer-header;
                     line-height: 18px;
@@ -90,5 +91,39 @@
             width: 60px;
             display: flex;
             justify-content: space-between;
+        }
+}
+
+
+//=================banner=================
+
+
+.banner {
+    background-image: url(../img/banner/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+        .banner__content {
+            width: 730px;
+            margin: 0 auto;
+
+                .banner__logo {
+                    text-align: center;
+                    margin-bottom: 80px;
+                }
+
+                .banner__description {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-weight: $main-font-weight;
+                    font-family: $main-font-family;
+                    color: $main-text-color;
+                    font-size: $size-of-price-products;
+                    line-height: 150%;
+                }
         }
 }
