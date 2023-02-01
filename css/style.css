@@ -486,3 +486,35 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-bottom: 93px;
 }
+
+.brands {
+  background-color: #0F0F0F;
+  min-height: 362px;
+}
+.brands h2 {
+  margin: 0 auto;
+  font-family: Playfair Display;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+.brands .brands__line {
+  border: 1px solid #FFFFFF;
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.brands .brands__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}

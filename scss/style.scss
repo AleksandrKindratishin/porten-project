@@ -340,3 +340,32 @@
                 }
         }
 }
+
+
+//===========brands===================
+
+
+.brands {
+    background-color: $gb-color;
+    min-height: 362px;
+
+        h2 {
+            margin: 0 auto;
+            @include blocksTitleStyles;
+            padding-top: 60px;
+            margin-bottom: 40px;
+        }
+
+        .brands__line {
+            border: 1px solid #FFFFFF;
+            width: 120px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+
+        .brands__cards {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 80px;
+        }
+}
