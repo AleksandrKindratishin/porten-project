@@ -162,6 +162,8 @@
 
 .season-top {
     background-color: $gb-color;
+    width: 50vw;
+    max-height: 730px;
 
         h2 {
             @include blocksTitleStyles;
@@ -179,6 +181,7 @@
         .seasons-top__cards {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
         }
 
         img {
@@ -206,6 +209,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    width: 50vw;
+    max-height: 730px;
 
     .new-coll-top__content {
         width: 376px;
@@ -236,4 +241,49 @@
         display: block;
         max-width: 122px;
     }
+}
+
+
+.collections__season-bottom {
+    background-image: url(../img/collections/man-bottom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 50vw;
+    max-height: 730px;
+}
+
+
+.new-coll-bottom {
+    background-color: $gb-color;
+        .new-coll-bottom__content {
+            max-width: 471px;
+            margin: 0 auto;
+
+                h2 {
+                    margin-top: 100px;
+                    margin-bottom: 40px;
+                    @include blocksTitleStyles;
+                }
+
+                .new-coll-bottom__line {
+                    border: 1px solid #FFFFFF;
+                    width: 120px;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    @include textDescStyles;
+                    line-height: 150%;
+                    margin-bottom: 70px;
+                }
+
+                a {
+                    @include collectionBtnStyles;
+                    border: 1px solid #FFFFFF;
+                    padding: 10px 20px;
+                    margin-left: 104px;
+                }
+        }
 }
