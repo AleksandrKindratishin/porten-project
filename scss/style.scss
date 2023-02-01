@@ -287,3 +287,56 @@
                 }
         }
 }
+
+
+//===============reciepts=================
+
+
+.reciepts {
+    background-color: $gb-color;
+        
+        .reciepts__conteiner {
+
+                h2 {
+                    @include blocksTitleStyles;
+                    padding-top: 120px;
+                    margin-bottom: 40px;
+                }
+
+                .reciepts__line {
+                    border: 1px solid #FFFFFF;
+                    width: 120px;
+                    margin: 0 auto;
+                    margin-bottom: 81px;
+                }
+
+                .reciepts__cards {
+                    display: grid;
+                    grid-template-columns: repeat(4,260px);
+                    grid-template-rows: repeat(2,406px);
+                    margin: 0 auto;
+                    row-gap: 40px;
+                    column-gap: 23px;
+                    max-width: 1109px;
+                    padding-bottom: 150px;
+
+                    img {
+                        padding: 55px 22px;
+                        background-color: #191B1C;
+                        margin-bottom: 25px;
+                    }
+
+                    
+                    .card__title {
+                        @include productsTitleStyles;
+                        text-align: left;
+                        margin-bottom: 10px;
+                    }
+            
+                    .card__price {
+                        @include productPriceStyles;
+                        margin-bottom: 93px;
+                    }
+                }
+        }
+}

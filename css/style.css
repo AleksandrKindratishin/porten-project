@@ -396,3 +396,93 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   margin-left: 104px;
 }
+
+.reciepts {
+  background-color: #0F0F0F;
+}
+.reciepts .reciepts__conteiner h2 {
+  font-family: Playfair Display;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 120px;
+  margin-bottom: 40px;
+}
+.reciepts .reciepts__conteiner .reciepts__line {
+  border: 1px solid #FFFFFF;
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 81px;
+}
+.reciepts .reciepts__conteiner .reciepts__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 260px 23px 260px 23px 260px 23px 260px;
+  grid-template-columns: repeat(4, 260px);
+  -ms-grid-rows: 406px 40px 406px;
+  grid-template-rows: repeat(2, 406px);
+  margin: 0 auto;
+  row-gap: 40px;
+  -webkit-column-gap: 23px;
+     -moz-column-gap: 23px;
+          column-gap: 23px;
+  max-width: 1109px;
+  padding-bottom: 150px;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+.reciepts .reciepts__conteiner .reciepts__cards > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+.reciepts .reciepts__conteiner .reciepts__cards img {
+  padding: 55px 22px;
+  background-color: #191B1C;
+  margin-bottom: 25px;
+}
+.reciepts .reciepts__conteiner .reciepts__cards .card__title {
+  font-family: Playfair Display;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.reciepts .reciepts__conteiner .reciepts__cards .card__price {
+  font-family: Playfair Display;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 21px;
+  font-weight: 400;
+  margin-bottom: 93px;
+}
