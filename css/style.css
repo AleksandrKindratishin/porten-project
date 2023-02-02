@@ -518,3 +518,171 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: space-between;
   margin-bottom: 80px;
 }
+
+.about {
+  background-image: url(../img/about/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 400px;
+}
+.about .about__conteiner {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .about__market {
+  width: 350px;
+}
+.about .about__market h3 {
+  font-size: 24px;
+  font-family: Playfair Display;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.about .about__market p {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: left;
+}
+.about .about__categories {
+  width: 350px;
+}
+.about .about__categories h3 {
+  font-size: 24px;
+  font-family: Playfair Display;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.about .about__categories .categories__buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 40px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 40px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+      grid-template-areas: "clock bras rem" "yv yv zap";
+}
+.about .about__categories .clock {
+  grid-area: clocl;
+}
+.about .about__categories .bras {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: bras;
+}
+.about .about__categories .rem {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: rem;
+}
+.about .about__categories .yv {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: yv;
+}
+.about .about__categories .zap {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+  grid-area: zap;
+}
+.about .about__categories .btn {
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-style: 24px;
+}
+.about .about__mailing {
+  width: 350px;
+}
+.about .about__mailing h3 {
+  font-size: 24px;
+  font-family: Playfair Display;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.about .about__mailing p {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+.about .about__mailing .mailing__email {
+  width: 205px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.about .about__mailing .mailing__email::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+.about .about__mailing .mailing__email::-moz-placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+.about .about__mailing .mailing__email:-ms-input-placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+.about .about__mailing .mailing__email::-ms-input-placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+.about .about__mailing .mailing__email::placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+.about .about__mailing .mailing__btn {
+  width: 140px;
+  height: 41px;
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #0F0F0F;
+  height: 50px;
+}
+.footer .footer__conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

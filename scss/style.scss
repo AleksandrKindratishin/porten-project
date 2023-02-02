@@ -369,3 +369,146 @@
             margin-bottom: 80px;
         }
 }
+
+
+//==============about===================
+
+
+.about {
+    background-image: url(../img/about/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+
+        .about__conteiner {
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .about__market {
+            width: 350px;
+
+                h3 {
+                    font-size: $size-of-header-titles;
+                    font-family: $secondary-font-family;
+                    line-height: 28px;
+                    text-transform: uppercase;
+                    color: $main-text-color;
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    @include textDescStyles;
+                    text-align: left;
+                }
+        }
+
+        .about__categories {
+            width: 350px;
+            h3 {
+                font-size: $size-of-header-titles;
+                font-family: $secondary-font-family;
+                line-height: 28px;
+                text-transform: uppercase;
+                color: $main-text-color;
+                margin-bottom: 40px;
+            }
+
+            .categories__buttons {
+                display: grid;
+                grid-template-rows: repeat(2,1fr);
+                grid-template-columns: repeat(3,1fr);
+                row-gap: 40px;
+                column-gap: 20px;
+                grid-template-areas: 
+                'clock bras rem'
+                'yv yv zap';
+            }
+
+            .clock {
+                grid-area: clocl;
+            }
+
+            .bras {
+                grid-area: bras;
+            }
+
+            .rem {
+                grid-area: rem;
+            }
+
+            .yv {
+                grid-area: yv;
+            }
+            
+            .zap {
+                grid-area: zap;
+            }
+
+            .btn {
+                background-color: $gb-color;
+                color: $main-text-color;
+                padding: 10px 20px;
+                font-style: $size-of-header-titles;
+            }
+
+        }
+
+        .about__mailing {
+            width: 350px;
+
+            h3 {
+                font-size: $size-of-header-titles;
+                font-family: $secondary-font-family;
+                line-height: 28px;
+                text-transform: uppercase;
+                color: $main-text-color;
+                margin-bottom: 40px;
+            }
+
+            p {
+                @include textDescStyles;
+                margin-bottom: 37px;
+            }
+
+            .mailing__email {
+                width: 205px;
+                height: 42px;
+                background: rgba(255, 255, 255, 0.4);
+
+                &::placeholder {
+                    font-size: 16px;
+                    color: $main-text-color;
+                    padding-left: 5px;
+                }
+            }
+
+            .mailing__btn {
+                width: 140px;
+                height: 41px;
+                background-color: $gb-color;
+                color: $main-text-color;
+                text-transform: uppercase;
+            }
+        }
+}
+
+
+//=============footer==============
+
+
+.footer {
+    background-color: $gb-color;
+    height: 50px;
+
+        .footer__conteiner {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+        }
+}
+
