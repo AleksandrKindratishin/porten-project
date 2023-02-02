@@ -101,7 +101,7 @@
 .banner {
     background-image: url(../img/banner/banner-bg.png);
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100% 100%;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -377,9 +377,9 @@
 .about {
     background-image: url(../img/about/about-bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-    height: 400px;
+    height: 100%;
 
         .about__conteiner {
             height: 400px;
