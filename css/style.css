@@ -185,10 +185,10 @@ h1, h2, h3, h4, h5, h6 {
 .banner {
   background-image: url(../img/banner/banner-bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100vw 100vh;
   background-position: center;
   width: 100%;
-  min-height: 810px;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -686,4 +686,71 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 320px) {
+  .__conteiner {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+  .header .header__img-contacts {
+    display: none;
+  }
+  .header .phone-link {
+    display: none;
+  }
+  .header .header__form-link {
+    margin: 0 auto;
+  }
+  .header .header__bottom {
+    height: 160px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .header .menu ul {
+    min-width: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .menu ul li {
+    padding: 0;
+  }
+  .header .menu nav {
+    margin-top: 5px;
+    margin-left: -35px;
+  }
+  .banner {
+    background-image: url(../img/banner/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 170vw 100vh;
+    background-position: center;
+    min-height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .banner .banner__logo {
+    display: none;
+  }
+  .banner .banner__content .banner__description {
+    font-size: 12px;
+  }
 }
