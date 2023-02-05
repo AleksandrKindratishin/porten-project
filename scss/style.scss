@@ -598,6 +598,78 @@
             }
 
     }
+
+
+//============collections================
+
+
+    .collections {
+        display: flex;
+        flex-direction: column;
+
+            .season-top {
+                width: 100%;
+
+                    h2 {
+                        font-size: 24px;
+                        margin-top: 30px;
+                        margin-bottom: 25px;
+                    }
+
+                    .seasons-top__line {
+                        width: 80px;
+                    }
+
+                    img {
+                        height: 200px;
+                    }
+
+                    .card__title {
+                        font-size: 16px;
+                    }
+
+                    .card__price {
+                        font-size: 14px;
+                        margin-bottom: 16px;
+                    }
+            }
+
+            .new-coll-top {
+                width: 100%;
+
+                    .new-coll-top__content {
+                        margin-top: 100px;
+                        margin-bottom: 100px;
+
+                            h2 {
+                                font-size: 24px;
+                                margin-bottom: 15px;
+                            }
+                    }
+
+                    .new-coll-top__line {
+                        width: 80px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    }
+
+                    .new-coll-top__button {
+                        padding: 5px 10px;
+                        display: inline-block;
+                        margin-left: 140px;
+                    }
+            }
+
+            .collections__season-bottom {
+                width: 100%;
+            }
+
+            .new-coll-bottom {
+                width: 100%;
+            }
+    }
+
+
 }
 
 
