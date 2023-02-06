@@ -688,7 +688,7 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .__conteiner {
     max-width: 310px;
     margin: 0 auto;

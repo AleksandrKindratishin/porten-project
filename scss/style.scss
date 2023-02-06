@@ -18,6 +18,8 @@
     }
 }
 
+
+
 .__conteiner {
     max-width: 1920px;
     margin: 0 auto;
@@ -515,7 +517,7 @@
 
 
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 576px) {
     .__conteiner {
         max-width: 310px;
         margin: 0 auto;
